@@ -1,0 +1,62 @@
+word vs keyword
+var, let, const 
+hoisting -> variable and functions hoisted -> declaration is done before assigning values
+Data types in Javascript 
+    -> primitives=>number, string, null, undefined, boolean and 
+    ->Refernces=> [], {},() => inn values ka referce pass hota h, like agr a=[1,2]; b=a ; agr mai b me pop krunga to a se bhi ho jaega
+    -> How to not let this happen, by shallow copy & deep copy
+
+ Conditionals
+    -> if (true/ false) 
+    -> 0 = false, -ve & +ve =true
+ Loops
+    -> for , while, foreach, forof, do while
+    -> for each => let a=[1,2,3,3,45,6,7]
+                    a.forEach((val)=>{
+                        console.log(val+5);
+                    })
+ Functons
+    -> arguments and parameters
+
+ Array
+    -> Push pop shift unshift arr.splice(0,3)
+
+ Objects
+
+ Callback fucntions 
+    -> setTimeout
+
+ *********************************************************************************
+
+sync and async kya hota h?
+    -> syn matlb ek baad dusra hoga
+    -> saare kaam ek saath start kro, jiska ans phle aaya wo de do
+
+async js kya h ?
+    -> kai baar final code depend hota h server jisko request laane me time lagta h, so ham uska wait krne ke baje
+       baaki kaam kr skte h, this is async.
+
+callbacks
+    -> fetch
+       XMLHttpRequest
+       axios
+       promises
+       setTimeout
+       setinterval
+
+    when data aa jaata h then we use,
+    async await  
+    then catch 
+    callbacks
+
+async await
+    -> koi bhi aisa funciton jisme aap async code likhenge, kyoki async code hai to aap promises ka 
+        istemal kr skte ho, jab uska ans ayega aapko then lagaana hoga us then ko lagaane se bachne k liye, aap async await ka istmeaal krte h
+
+    -> hame function se phle async likhna hota h aur baat me await
+
+5 use case of asyn await
+    -> node me jab db
+    -> fetch
+    -> setTimeout
+    -> setinterval
